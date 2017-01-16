@@ -6,6 +6,10 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+    font-family: "KG Ten Thousand Reasons";
+    src: url("../fonts/craie/KGTenThousandReasons.ttf");
+}
 /*
 ///////////////////////////////////////////////////
 1.0 BASE
@@ -3471,10 +3475,12 @@ vertical-align: middle;
 }
 
 .modal-header, .close {
- background-image: url(../images/13825-NPBS6D.jpg);
+ background-image: url(../images/3532.jpg);
     text-align: center;
     font-size: 25px;
-        color: #0A7B91;
+        color: #fff;
+     background-size: 100vh;
+    background-repeat: no-repeat;
 }
 
 .close:hover{
@@ -3483,7 +3489,7 @@ color: #fff;
 
 
 .modal-header i{
-    color: #0A7B91;
+    color: #fff;
     margin-right: 15px;
 }
 
@@ -3493,7 +3499,13 @@ color: #fff;
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 10px;
-      border-radius: 5px;
+    border-radius: 5px;
+}
+
+.modal-body{
+    background-image: url(../images/3532.jpg);
+     background-size: 100vh;
+    background-repeat: no-repeat;
 }
 
 .secteur_taf{
@@ -3502,7 +3514,8 @@ color: #fff;
 
 .titre_modal{
     font-size: 20px;
-    color: #0A7B91; 
+    color: #fff; 
+    font-family: "KG Ten Thousand Reasons";
 }
 
 .fonction{
@@ -3510,7 +3523,9 @@ color: #fff;
 }
 
 .fonction p{
-color : #0A7B91;
+font-family: "KG Ten Thousand Reasons";
+color : #fff;
+    font-weight: 700;
 }
 
 /* Parcours académique*/
