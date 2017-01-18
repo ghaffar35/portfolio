@@ -393,7 +393,7 @@ a:hover .lnk-icon-right {
 }
 
 .p-b {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 480px) {
@@ -2871,17 +2871,19 @@ vertical-align: middle;
 }
 
 .footer-style-3 {
-  background: #262626;
+  background: #666666;
   font-size: 15px;
+  padding-bottom: 10px !important;
+    padding-top: 40px !important;
 }
 .footer-style-3 .footer-widget {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .footer-style-3 .logo {
   color: #fff;
   font-size: 24px;
   font-family: "Montserrat", Arial, sans-serif;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .footer-style-3 .logo .logo {
   padding: 7px 15px;
@@ -3475,12 +3477,12 @@ vertical-align: middle;
 }
 
 .modal-header, .close {
- background-image: url(../images/3532.jpg);
-    text-align: center;
-    font-size: 25px;
-        color: #fff;
-     background-size: 100vh;
-    background-repeat: no-repeat;
+ background-image: url(../images/4115.jpg);
+ text-align: center;
+ font-size: 25px;
+ color: #fff;
+ background-size: 100vh;
+ background-repeat: no-repeat;
 }
 
 .close:hover{
@@ -3489,7 +3491,7 @@ color: #fff;
 
 
 .modal-header i{
-    color: #fff;
+    color:black;
     margin-right: 15px;
 }
 
@@ -3503,7 +3505,7 @@ color: #fff;
 }
 
 .modal-body{
-    background-image: url(../images/3532.jpg);
+background-color: #E4E9EC;
      background-size: 100vh;
     background-repeat: no-repeat;
 }
@@ -3513,9 +3515,9 @@ color: #fff;
 }
 
 .titre_modal{
-    font-size: 20px;
-    color: #fff; 
-    font-family: "KG Ten Thousand Reasons";
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+color : black;
 }
 
 .fonction{
@@ -3523,9 +3525,9 @@ color: #fff;
 }
 
 .fonction p{
-font-family: "KG Ten Thousand Reasons";
-color : #fff;
-    font-weight: 700;
+font-family: 'Roboto', sans-serif;
+color : black;
+font-weight: 700;
 }
 
 /* Parcours académique*/
@@ -3538,5 +3540,62 @@ vertical-align: middle;
 .p-c i{
     padding-bottom: 15px;
 color: #0A7B91;
+}
+
+.projet{
+    max-height: 200px;
+}
+
+.titre_projet{
+ font-family: 'Pacifico', cursive;
+}
+
+.btn_pastime{
+background-color: #2AA35E;
+border: 2px solid #eeeeee;
+}
+
+.btn_pastime:hover{
+background-color: #fff !important;
+color: #2AA35E;
+border: 2px solid #fff !important;
+}
+
+.btn_ebullition{
+background-color: #940E7F;
+border: 2px solid #fff;
+}
+
+.btn_ebullition:hover{
+background-color: #fff !important;
+color: #940E7F;
+border: 2px solid #fff !important;
+}
+
+.btn_asrac{
+    background-color: #4099FF;
+    border: 2px solid #fff;
+}
+
+.btn_asrac:hover{
+background-color: #fff !important;
+color: #4099FF;
+border: 2px solid #fff !important;
+}
+
+.btn_ddcspp{
+    background-color: #58a6cd;
+    border: 2px solid #fff;
+}
+
+.btn_ddcspp:hover{
+background-color: #fff !important;
+color: #58a6cd;
+border: 2px solid #fff !important;
+}
+
+.text_features:hover{
+color: #fff;
+    font-weight: 700;
 }
 /*# sourceMappingURL=cards.css.map */
